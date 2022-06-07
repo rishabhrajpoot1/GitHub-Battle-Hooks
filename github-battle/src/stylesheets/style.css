@@ -1,0 +1,308 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* ---------------------custom styles */
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.justify_between{
+    justify-content: space-between;
+}
+.justify_center{
+    justify-content: center;
+}
+.flex_wrap{
+    flex-wrap: wrap;
+}
+.items_center{
+    align-items: center;
+}
+.flex_43{
+    flex: 0 1 43%;
+    /* border: 1px solid rgba(128, 128, 128, 0.233); */
+}
+.flex_30{
+    flex: 0 1 30%;
+}
+.flex_28{
+    flex: 0 1 28%;
+}
+.flex_25{
+    flex: 0 1 25%;
+}
+.flex_22{
+    flex: 0 1 22%;
+}
+a{
+    text-decoration: none;
+}
+.app_hei{
+    min-height: 100vh;
+}
+
+/* -------------header */
+
+.header{
+    padding: 1.5rem 0;
+}
+.active{
+    color: rgb(128, 13, 13);
+}
+header h3{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    font-weight: 900;
+}
+.brighter{
+    cursor: pointer;
+    width: 3%;
+}
+
+.brighter img{
+    width: 100%;
+    transform: rotate(30deg);
+}
+.brighter i{
+    font-size: 2rem;
+    color: rgb(255, 196, 0);
+    transform: rotate(-15deg);
+
+}
+
+/* ---------tags----------- */
+.tags{
+    width: 30%;
+    /* border: 1px solid rgba(128, 128, 128, 0.418); */
+    margin: auto;
+    margin-top: 5rem;
+}
+.tags h3{
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.allCards{
+    margin-top: 2rem;
+}
+.article{
+    background-color: rgb(235,235,235);
+    margin: 1.2rem;
+    padding: 2.2rem 0;
+}
+.article img{
+    width: 30%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    padding: 0.8rem;
+    background-color: rgba(128, 128, 128, 0.274);
+}
+.article h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: rgb(214, 24, 56);
+    margin-top: 1rem;
+}
+.article_data h3{
+    font-size: 1.1rem;
+    font-weight: 900;
+
+}
+.article_data i{
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+.person{
+    color: rgb(255, 187, 0);
+}
+.star{
+    color: rgb(255, 145, 0);
+}
+.forks{
+    color: skyblue;
+}
+.warning{
+    color: pink;
+}
+.article_data{
+    width: 80%;
+    line-height: 2;
+    margin: auto;
+    margin-top: 1rem;
+}
+.instruction_div{
+    margin-top: 2rem;
+}
+.Instructions{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 4rem;
+}
+.icon_div{
+    text-align: center;
+}
+.icon_div h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.icon{
+    font-size: 8rem;
+    padding: 3rem;
+    margin-top: 1rem;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+.person_icon{
+    color: rgb(255, 136, 0);
+}
+.winner_icon{
+    color: rgb(255, 217, 0);
+}
+/* -------------------- */
+.players{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.inputs_players{
+    margin-top: 3rem;
+}
+.inputs_players .input{
+    width: 65%;
+    height: 1.9rem;
+    outline: none;
+}
+.inputs_players .submit{
+    height: 2.2rem;
+    width: 25%;
+    margin-left: 0.5rem;
+    background: none;
+    border: none;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.disabled:disabled{
+    cursor: not-allowed;
+    opacity: 35%;
+}
+.player_profile{
+    margin-top: 2rem !important;
+    width: 100%;
+}
+.player_profile img{
+    width: 20%;
+    border-radius: 0.5rem;
+}
+.player_profile h3{
+    margin-left: 0.5rem;
+    font-weight: 900;
+}
+.cross{
+    padding: 0.3rem 0.4rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: rgb(170, 38, 38);
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.411);
+}
+.profie_data_one{
+    width: 70%;
+    height: 5rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.3rem;
+    background-color: rgba(128, 128, 128, 0.205);
+}
+.battle{
+    display: block;
+    margin: auto;
+    border: none;
+    background: none;
+    padding: 0.6rem 1.6rem;
+    border: 1px solid rgba(128, 128, 128, 0.295);
+    margin-top: 1.8rem;
+    border-radius: 0.3rem;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.battle_persons{
+    margin-top: 5rem;
+}
+.article h2{
+    margin-bottom: 1.3rem;
+}
+.code{
+    color: rgb(70, 69, 69);
+}
+.darkcolor{
+    background-color:rgb(28,32,34);
+}
+.text_white{
+    color: white;
+}
+.darkcard{
+    background-color: rgb(36,40,42);
+    color: white ;
+}
+.winner{
+    color: green !important;
+}

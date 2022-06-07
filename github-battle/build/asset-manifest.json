@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/GitHub-Battle-Hooks/static/css/main.3a6c416b.chunk.css",
+    "main.js": "/GitHub-Battle-Hooks/static/js/main.61aea0a4.chunk.js",
+    "main.js.map": "/GitHub-Battle-Hooks/static/js/main.61aea0a4.chunk.js.map",
+    "runtime-main.js": "/GitHub-Battle-Hooks/static/js/runtime-main.9c2fb8cd.js",
+    "runtime-main.js.map": "/GitHub-Battle-Hooks/static/js/runtime-main.9c2fb8cd.js.map",
+    "static/js/2.605879f2.chunk.js": "/GitHub-Battle-Hooks/static/js/2.605879f2.chunk.js",
+    "static/js/2.605879f2.chunk.js.map": "/GitHub-Battle-Hooks/static/js/2.605879f2.chunk.js.map",
+    "index.html": "/GitHub-Battle-Hooks/index.html",
+    "static/css/main.3a6c416b.chunk.css.map": "/GitHub-Battle-Hooks/static/css/main.3a6c416b.chunk.css.map",
+    "static/js/2.605879f2.chunk.js.LICENSE.txt": "/GitHub-Battle-Hooks/static/js/2.605879f2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c2fb8cd.js",
+    "static/js/2.605879f2.chunk.js",
+    "static/css/main.3a6c416b.chunk.css",
+    "static/js/main.61aea0a4.chunk.js"
+  ]
+}
